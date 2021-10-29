@@ -1,0 +1,32 @@
+ <h1>Hello World</h1>
+ <div background="fondo1.jpg" bgcolor="FFCECB" height="600%" width="00%">
+</div>
+    <div style="float: left;border-radius: 400px;padding: 10px;">
+        <img src="{{ urlImgLocal }}">
+    </div>
+    
+    <div style="float: left;">
+        <img src="https://www.anmosugoi.com/wp-content/uploads/2020/04/black-clover-nero-3-scaled.jpg">
+    </div>
+     <div style="float: left;">
+            <h1>La figura</h1>
+            <h4> <span style="color: tomato;">{{ figura.tipo }}</span></h4>
+            <img src="{{ figura.imagen }}">
+            <h4>Su base es: <span style="color: brown;">{{ figura.base }}</span></h4>
+            <h4>Su altura es: <span style="color:chocolate;">{{ figura.altura }}</span></h4>
+            <h4>Su área es: <span style="color:gold;">{{ calcularAreaTriangulo(figura.base,figura.altura) }}</span></h4>
+            <label>Base:</label><input type="number" [(ngModel)]="figura.base">
+            <br>
+            <label>Altura:</label><input type="number" [(ngModel)]="figura.altura">
+            
+            <h2>..................FIN..................</h2>
+        </div>
+
+
+	
+
+
+
+
+
+
